@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int sum(int a, int b)
+{
+    int sum1;
+    sum1 = a + b;
+    return sum1;
+}
+float divide(int a, int b)
+{
+    float d1;
+    if (a > b)
+    {
+        d1 = a / b;
+    }
+    else
+        d1 = b / a;
+
+    return d1;
+}
+
+int main()
+{
+    cout << sum(2, 3) << endl;
+    cout << divide(13, 12) << endl;
+
+    return 0;
+}
